@@ -1,0 +1,70 @@
+.task-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .task-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .task-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .task-item h3 {
+    margin-top: 0;
+  }
+  
+  .task-item p {
+    margin: 10px 0;
+  }
+  
+  .btn-delete {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-delete:hover {
+    background-color: #d9534f;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+  .task-item[data-priority="H"] {
+    border-left: 5px solid red;
+  }
+  
+  .task-item[data-priority="M"] {
+    border-left: 5px solid orange;
+  }
+  
+  .task-item[data-priority="L"] {
+    border-left: 5px solid green;
+  }
+  
+  
