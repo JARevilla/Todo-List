@@ -12,8 +12,8 @@ Make sure you have Python 3.x installed. You'll also need a Redis instance runni
 ### Step 1: Clone the Repository
 
 ```
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/JARevilla/Todo-List.git
+cd Todo_list
 ```
 
 ### Step 2: Set Up a Virtual Environment
